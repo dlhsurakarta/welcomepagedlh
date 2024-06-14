@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout";
-import saya from "../../assets/image/saya.jpg";
+import saya from "/image/saya.jpg";
 
 const AboutUsPage = () => {
   return (

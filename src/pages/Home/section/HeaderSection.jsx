@@ -1,8 +1,9 @@
+import profilepic from '/image/profilepic.jpg';
 const HeaderSection = () => {
   return (
     <section id="home-section" className="relative isolate overflow-hidden">
       <img
-        src="src/assets/image/profilepic.jpg"
+        src={profilepic}
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover"
       />

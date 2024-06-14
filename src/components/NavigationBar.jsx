@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-
+import img06 from '/image/navbarpic2.jpg';
 const NavigationBar = () => {
   const location = useLocation();
   const pathname = location.pathname;
@@ -56,7 +56,7 @@ const NavigationBar = () => {
           </ul>
         </div>
         <Link to="/" className="text-xl font-bold flex justify-center items-center gap-2">
-          <img width={400} height={80} src="src/assets/image/navbarpic2.jpg" alt="Logo"/>
+          <img width={400} height={80} src={img06} alt="Logo"/>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
